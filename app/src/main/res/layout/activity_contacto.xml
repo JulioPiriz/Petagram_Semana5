@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContactoActivity">
+    <include layout="@layout/actionbar"
+        android:id="@+id/miActionBar"
+        >
+
+    </include>
+
+
+    <EditText
+        android:id="@+id/from"
+        android:layout_width="277dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="436dp"
+        android:layout_marginEnd="100dp"
+        android:hint="@string/contacto_msg"
+        android:text="@string/contacto_msg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/fromMail"
+        android:layout_width="277dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="212dp"
+        android:layout_marginEnd="100dp"
+        android:hint="@string/contacto_nombre"
+        android:text="@string/contacto_nombre"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/msg"
+        android:layout_width="277dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="312dp"
+        android:layout_marginEnd="100dp"
+        android:hint="@string/contacto_mail"
+        android:text="@string/contacto_mail"
+        app:layout_constraintEnd_toEndOf="@+id/miActionBar"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="120dp"
+        android:text="@string/contacto_btn"
+        android:onClick="onClickBtn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.904"
+        tools:text="@string/contacto_btn" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="363dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/contacto_texto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">PetaGram</string>
+    <string name="favoritos">Favoritos</string>
+    <string name="mascota">Ronco</string>
+    <string name="like">Like</string>
+    <string name="foto">Foto</string>
+    <string name="menu_about">Acerca de</string>
+    <string name="menu_contacto">Contacto</string>
+    <string name="contacto_nombre">Tu Nombre</string>
+    <string name="contacto_mail">Tu E-Mail</string>
+    <string name="contacto_msg">Tu Mensaje</string>
+    <string name="contacto_btn">Enviar Comentario</string>
+    <string name="contacto_texto">Utiliza el siguiente formulario para ponerte en contacto con nosotros. Gracias !!</string>
+    <string name="datos_creador">Creado por Pablo Rojas</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

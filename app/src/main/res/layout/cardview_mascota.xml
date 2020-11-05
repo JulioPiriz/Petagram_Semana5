@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="50dp"
+    android:layout_marginRight="50dp"
+    android:layout_marginTop="50dp"
+
+    card_view:cardCornerRadius="4dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imgFoto"
+            android:layout_marginTop="11dp"
+            android:layout_width="match_parent"
+            android:layout_height="249dp"
+            android:src="@drawable/m1"></ImageView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/imgHueso"
+                android:layout_marginTop="11dp"
+                android:layout_marginLeft="5dp"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/bone"></ImageView>
+            <TextView
+                android:id="@+id/tvMascota"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_width="97dp"
+                android:layout_height="25dp"
+                android:text="@string/mascota"
+                android:textStyle="bold">
+            </TextView>
+            <TextView
+                android:id="@+id/tvLike"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="50dp"
+                android:layout_width="50dp"
+                android:layout_height="25dp"
+                android:textStyle="bold">
+            </TextView>
+            <ImageView
+                android:id="@+id/imgHuesoLike"
+                android:layout_marginTop="11dp"
+                android:layout_marginRight="100dp"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/bone"></ImageView>
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
